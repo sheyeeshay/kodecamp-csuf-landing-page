@@ -69,6 +69,12 @@ h5{
 
 }
 }
+@media screen and (max-width: 440px) {
+    .top-hero-section img{
+      width: 360px;
+  
+  }
+  }
 @media screen and (max-width: 400px){
     .scnd-hero-section img{
         width: 380px;
