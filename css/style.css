@@ -27,13 +27,13 @@ color: #b91d1d;
 margin-top: 150px;
 font-size: 58px;
 }
-.hero-image{
+/* .hero-image{
  position: absolute;
 width: 750px;
 height: 150px;
 left: 700px;
-top: 100px;
-}
+top: 100px; */
+
 .scnd-hero-section{
     margin-top: 250px;
 }
@@ -62,4 +62,15 @@ h5{
     margin-top: 35px;
     color: white;
     margin-right: 10px;
+}
+@media screen and (max-width: 400px) {
+  .top-hero-section img{
+    width: 360px;
+
+}
+}
+@media screen and (max-width: 400px){
+    .scnd-hero-section img{
+        width: 380px;
+    }
 }
