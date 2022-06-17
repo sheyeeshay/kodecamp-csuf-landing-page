@@ -25,21 +25,16 @@ color: #b91d1d;
 }
  .top-hero-section h1{
 margin-top: 150px;
-font-size: 58px;
+font-size: 50px;
 }
-/* .hero-image{
- position: absolute;
-width: 750px;
-height: 150px;
-left: 700px;
-top: 100px; */
-
+ .top-hero-section img{
+width: 600px;
+margin-top: 25px;
+ }
 .scnd-hero-section{
     margin-top: 250px;
 }
-.scnd-hero-section h2{
-    margin-top: 200px;
-}
+
 .third-hero-section{
     margin-top: 100px;
 }
@@ -53,7 +48,7 @@ top: 100px; */
     padding-top: 20px;
 }
 i{
-    margin-top: 50px;
+    margin-top: 25px;
     color: white;
 }
 h5{
@@ -63,20 +58,4 @@ h5{
     color: white;
     margin-right: 10px;
 }
-@media screen and (max-width: 400px) {
-  .top-hero-section img{
-    width: 360px;
 
-}
-}
-@media screen and (max-width: 440px) {
-    .top-hero-section img{
-      width: 360px;
-  
-  }
-  }
-@media screen and (max-width: 400px){
-    .scnd-hero-section img{
-        width: 380px;
-    }
-}
